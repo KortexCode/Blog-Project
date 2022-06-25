@@ -1,0 +1,19 @@
+/*changes for icons bar*/
+.icon-container{
+    padding-right: 2rem;
+    justify-content: end;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  
+    margin-left: 20px;
+}
+
+/*changes for about me*/
+.nav-bar-container .profile{
+    margin-right:5rem;   
+}
+.nav-bar-container .logo{
+    margin-left: 3rem;
+}
