@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="./css/blogsPageStyle.css" type="text/css">
         <link rel="stylesheet" href="./css/font/flaticon.css" type="text/css">
         <link rel="stylesheet" href="./css/tablets.css" media="(min-width: 600px)">
+        <link rel="stylesheet" href="./css/blogsPageTablets.css" media="(min-width: 700px)">
+        <link rel="stylesheet" href="./css/blogsPageDesktop.css" media="(min-width: 900px)">
         <title>Blog</title>
     </head>
     <body>
@@ -40,22 +42,42 @@
                 <div class="news-container">
 
                     <div class="news-container__intro">
-                        <p class="news-container__intro-title">News</p>
+                        <div>
+                            <p class="news-container__intro-title">News</p>
+                        </div>
+                        
                         <figure>
                             <img class="news-container__picture" src="./assets/img/main-news-img.png" alt="news picture" loading="lazy">
                         </figure>
                         
                     </div>
-                  
+                  <div class="article-container">
                     <article class="news-container__article">
                         <h2 class="news-container__article-title">Blogpost tittle</h2>
                         <p class="news-container__article-text">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Illo,accusamus dolor a sint reiciendissapiente natus, sit consequuntur quoaliquam pariatur deserunt. Ea oditvoluptatem quidem qui nisi harum!Itaque.</p>
-                        <a class="news-container__article-button" href="#">Read more</a>
                     </article>
+                    <a class="news-container__article-button" href="#">Read more</a>
+                  </div>
+                    
 
                 </div>  
             </section>
-            <section>
+            <section class="main-blogs">
+                
+                <h2>Last blogposts</h2>
+                <div class="main-blogs__grid-container">
+                    <div class="main-blogs__item">
+                        <div class="item-img"></div>
+                        <article>
+                            <h2>Blogpost title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
+                        </article>
+                        <a class="item-button item-button--active" href="">Read more</a>
+                    </div> 
+                  
+                  
+                </div>
+                
 
             </section>
         </main>

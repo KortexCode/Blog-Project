@@ -1,0 +1,15 @@
+.news-container{
+    grid-template-columns: 2fr 1fr;
+    place-content: center;
+    column-gap: 3rem;
+}
+
+.news-container__intro{
+    align-self: center;
+}
+
+.article-container{
+    
+    justify-content: center;
+    align-items: center;
+}
