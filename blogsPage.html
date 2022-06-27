@@ -5,16 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&family=Quicksand:wght@500&display=swap" rel="stylesheet"> -->
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./css/main.css" type="text/css">
-        <link rel="stylesheet" href="./css/indexStyle.css" type="text/css">
+        <link rel="stylesheet" href="./css/blogsPageStyle.css" type="text/css">
         <link rel="stylesheet" href="./css/font/flaticon.css" type="text/css">
         <link rel="stylesheet" href="./css/tablets.css" media="(min-width: 600px)">
         <title>Blog</title>
@@ -40,13 +36,27 @@
             </nav>
         </header>
         <main>
-            <section class="main-section">
-                <div class="main-section__title">
-                    <p>Know the releases and news about the Tech world</p>
-                </div>
-                <div class="main-section__button-container">
-                    <a class="button-container--active" href="">Enter now!</a>
-                </div>
+            <section class="main-news">
+                <div class="news-container">
+
+                    <div class="news-container__intro">
+                        <p class="news-container__intro-title">News</p>
+                        <figure>
+                            <img class="news-container__picture" src="./assets/img/main-news-img.png" alt="news picture" loading="lazy">
+                        </figure>
+                        
+                    </div>
+                  
+                    <article class="news-container__article">
+                        <h2 class="news-container__article-title">Blogpost tittle</h2>
+                        <p class="news-container__article-text">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Illo,accusamus dolor a sint reiciendissapiente natus, sit consequuntur quoaliquam pariatur deserunt. Ea oditvoluptatem quidem qui nisi harum!Itaque.</p>
+                        <a class="news-container__article-button" href="#">Read more</a>
+                    </article>
+
+                </div>  
+            </section>
+            <section>
+
             </section>
         </main>
     </body>

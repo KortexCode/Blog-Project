@@ -1,12 +1,14 @@
 :root{
     --alternative-background-blog:#FAC213;
     --background-blog:#48cfad;
+    --soft-grey:#e6e9ed;
     --black-steam:#252121;
     
-    --DM-sans-serif:'DM Sans', sans-serif;
+    --Robot-serif:'Roboto', sans-serif;
 
-    --sm:1.2rem:
-    --mm:1.4rem;
+    --sm:1.2rem;
+    --Msm:1.4rem;
+    --mm:1.6rem;
     --Mmm:1.8rem;
     --hm:2.4rem;
 
@@ -19,6 +21,6 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+    font-family:var(--Robot-serif);
 }
 
