@@ -1,11 +1,12 @@
 :root{
     --alternative-background-blog:#FAC213;
     --background-blog:#48cfad;
+    --blog-footer:#22272d;
     --soft-grey:#e6e9ed;
     --grey-lines:#f1f3f5;
     --black-steam:#252121;
     
-    --Robot-serif:'Roboto', sans-serif;
+    --Robot-serif:'Roboto Mono', monospace;
 
     --sm:1.2rem;
     --Msm:1.4rem;

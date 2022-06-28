@@ -62,15 +62,14 @@ a{
 .news-container{
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 3rem;
+    row-gap: 1rem;
     width: 80%;
-    margin: 0 auto;
-  
+    margin: 0 auto;  
 }
-.news-container .news-container__intro{
+/* .news-container .news-container__intro{
     display: flex;
     flex-direction: column;
-}
+} */
 .news-container .news-container__intro-title{
     font-size: var(--mm);
     font-weight: 700;
@@ -83,16 +82,13 @@ a{
 } */
 .news-container__picture{
     width: 100%;
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 /*Article*/
-.article-container{
+.news-container__article-container{
     display: flex;
     flex-direction: column;
-}
-.news-container__article{
-  height: auto;
 }
 .news-container__article-title{
     font-size: var(--hm);
@@ -111,6 +107,7 @@ a{
     padding: 1rem 1.5rem;
     font-size: var(--sm);
     font-weight: 700;
+    font-family: var(--Robot-serif);
     background-color: var(--background-blog);
     color: var(--black-steam);
 }
@@ -121,6 +118,7 @@ a{
     grid-template-columns: 1fr;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5rem;
 }
 /*Title*/
 .main-blogs__title{
@@ -142,10 +140,14 @@ a{
     place-content: center;
 }
 
-.main-blogs__items{
-    display: flex;
+.item-article{
+    /* display: flex;
     flex-direction: column;
-   /*  margin-bottom: 2rem; */
+    height: 500px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto;
+  
 }
 .item-img{
     width: 100%;
@@ -164,28 +166,49 @@ a{
    
 }
 /*Blog articles*/
-.item-article{
-    padding-top: 2rem;
-    padding-bottom: 2.5rem;
-}
+
 .item-article h2{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .item-article p{
+    margin-bottom: 2rem;
     font-size: var(--mm);
     font-weight: 300;
+
 }
 
 .item-button{
-    align-self: flex-start;
+    align-self: end;
+    justify-self: start;
     padding: 1rem 1rem;
     margin-bottom: 2rem;
     border: 1px solid white;
     font-size: var(--sm);
     font-weight: 700;
+    font-family: var(--Robot-serif);
     background-color: var(--background-blog);
     color: var(--black-steam);
 }
 .item-button--active:hover{
     border: 1px solid #268d73;
+}
+
+/*FOOTER*/
+footer{
+    position: relative;
+    top:0;
+    width: 100%;
+    height: 6rem;
+    border-top: 2rem solid var(--background-blog);
+    background-color: var(--blog-footer);
+    text-align: center;
+   
+    
+}
+footer p{
+    margin-top: 2rem;
+    font-size: var(--Msm);
+    font-weight: 500;
+    color:white;
 }

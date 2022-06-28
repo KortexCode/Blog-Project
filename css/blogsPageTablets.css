@@ -1,15 +1,23 @@
 .news-container{
     grid-template-columns: 2fr 1fr;
-    place-content: center;
-    column-gap: 3rem;
-}
 
-.news-container__intro{
-    align-self: center;
-}
-
-.article-container{
     
-    justify-content: center;
-    align-items: center;
+}
+.news-container .news-container__intro-title{
+   grid-column: span 2;
+}
+.news-container__picture{
+    width: 85%;
+      
+}
+.news-container__article-container{
+    padding-top: 2rem;
+   
+}
+.news-container__article-text{
+   margin-bottom: 3rem;
+   padding-right: 4rem;
+}
+.news-container__article-button{
+
 }

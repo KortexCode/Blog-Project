@@ -88,7 +88,7 @@ main{
  
     font-size: var(--Mmm);
     font-weight: 700;
-    font-family: var(--DM-sans-serif);
+    font-family: var(--Robot-serif);
     color: var(--black-steam);
     background-color:var(--background-blog);
 }

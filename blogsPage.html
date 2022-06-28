@@ -7,15 +7,14 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./css/main.css" type="text/css">
         <link rel="stylesheet" href="./css/blogsPageStyle.css" type="text/css">
         <link rel="stylesheet" href="./css/font/flaticon.css" type="text/css">
-        <link rel="stylesheet" href="./css/tablets.css" media="(min-width: 600px)">
+        <link rel="stylesheet" href="./css/headerTablets.css" media="(min-width: 600px)">
         <link rel="stylesheet" href="./css/blogsPageTablets.css" media="(min-width: 700px)">
-        <link rel="stylesheet" href="./css/blogsPageDesktop.css" media="(min-width: 900px)">
-        <title>Blog</title>
+        <title>Blogs</title>
     </head>
     <body>
         <header>
@@ -41,92 +40,78 @@
             <section class="main-news">
                 <div class="news-container">
 
-                    <div class="news-container__intro">
-                        <div>
-                            <p class="news-container__intro-title">News</p>
-                        </div>
-                        
-                        <figure>
-                            <img class="news-container__picture" src="./assets/img/main-news-img.png" alt="news picture" loading="lazy">
-                        </figure>
-                        
-                    </div>
-                  <div class="article-container">
-                    <article class="news-container__article">
+                    <h3 class="news-container__intro-title">News</h3>
+                    
+                    <figure class="news-container__figure">
+                        <img class="news-container__picture" src="./assets/img/main-news-img.png" alt="news picture">
+                    </figure>
+                
+                    <article class="news-container__article-container">
                         <h2 class="news-container__article-title">Blogpost tittle</h2>
                         <p class="news-container__article-text">Lorem ipsum dolor sit ametconsectetur adipisicing elit. Illo,accusamus dolor a sint reiciendissapiente natus, sit consequuntur quoaliquam pariatur deserunt. Ea oditvoluptatem quidem qui nisi harum!Itaque.</p>
-                    </article>
-                    <a class="news-container__article-button" href="#">Read more</a>
-                  </div>
-                    
-
+                        <a class="news-container__article-button" href="#">Read more</a>
+                    </article>                       
                 </div>  
             </section>
+
             <section class="main-blogs">
                 <div class="main-blogs__title">
                     <p>Last blogposts</p>
                 </div> 
                 
                 <div class="main-blogs__grid-container">
-                    <div class="main-blogs__items">
+                    <article class="item-article">
                         <div class="item-img item-img--post1"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article>
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div>
-                    
-                    <div class="main-blogs__items">
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum eligendi repellat eaautem sint error repellat eaautem sint quo? Voluptas quamfugit optio dolores repellat eaautem sint beatae repellat eaautem sint, veniam obcaecati neque rationeipsam veritatis.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                        
+                    <article class="item-article">
                         <div class="item-img item-img--post2"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article class="item-article">
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div> 
-                    <div class="main-blogs__items">
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum eligendi error quo? Voluptas quamfugit optio dolores beatae repellat eaautem sint, veniam obcaecati neque rationeipsam veritatis.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                        
+                        
+                    <article class="item-article">
                         <div class="item-img item-img--post3"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article>
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div> 
-                    <div class="main-blogs__items">
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum eligendi error quo? Voluptas quamfugit optio dolore fugit optio dolores beataerepellat ea autem sint, veniam obcaecati  error quo? Voluptas quamfugit optio dolores beatae repellat eaautem sint, veniam obcaecati neque rationeipsam.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                    <article class="item-article">
                         <div class="item-img item-img--post1"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article class="item-article">
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div> 
-                    <div class="main-blogs__items">
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum eligendi error quo? Voluptas quamfugit optio dolores beatae repellat eaautem sint, veniam obcaecati neque rationeipsam veritatis.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                    <article class="item-article">
                         <div class="item-img item-img--post2"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article class="item-article">
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div> 
-                    <div class="main-blogs__items">
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum eligendi error quo? Voluptas quamfugit optio sint, veniam obcaecati neque rationeipsam veritatis.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                    <article class="item-article">
                         <div class="item-img item-img--post3"></div>
-                        <article class="item-article">
-                            <h2>Blogpost title</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos dolorum eligendi error quo? Voluptas quam fugit optio dolores beatae repellat ea autem sint, veniam obcaecati neque ratione ipsam veritatis.</p>
-                        </article class="item-article">
-                        <a class="item-button item-button--active" href="">Read more</a>
-                    </div> 
+                        <h2>Blogpost title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur,dolorum repellat eaautem sint eligendi error quo? Voluptas quamfugit optio dolores beatae repellat eaautem sint, veniam obcaecati repellat eaautem sint neque rationeipsam veritatis.</p>
+                        <a class="item-button item-button--active"href="">Read more</a>
+                    </article>
+                        
                     
-                  
-                  
                 </div>
-                
-
             </section>
         </main>
+        <footer>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </footer>
     </body>
 </html>
+                    
+                  
+                  
                     
                     
                 
