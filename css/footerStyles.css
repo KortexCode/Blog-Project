@@ -1,0 +1,18 @@
+/*FOOTER*/
+footer{
+    position: relative;
+    top:0;
+    width: 100%;
+    height: 6rem;
+    border-top: 2rem solid var(--background-blog);
+    background-color: var(--blog-footer);
+    text-align: center;
+   
+    
+}
+footer p{
+    margin-top: 2rem;
+    font-size: var(--Msm);
+    font-weight: 500;
+    color:white;
+}
