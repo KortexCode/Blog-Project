@@ -3,50 +3,6 @@ body{
     height: auto;
     min-width: 300px;
 }
-header{
-    width: 100%;
-    height: 13rem;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 4fr;
-
-}
-/*HEADER*/
-
-/*Icon bar*/
-/*the icon styles are in font folder*/
-.icon-container{
-    width: 100%;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    background-color: var(--background-blog);
-}
-/*Navigation bar*/
-.nav-bar-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-bar-container .logo img{
-    width: 20rem;
-    object-fit: cover;
-    
-}
-.nav-bar-container .profile{
-    margin-right:2.5rem;   
-}
-.nav-bar-container .profile a{
-    font-size: var(--Mmm);
-    font-weight: 500;
-    color: var(--black-steam);
-    text-decoration:underline;
-}
-a{
-    text-decoration: none;
-}
 /*MAIN*/
 
 /*firts section - principals news*/
