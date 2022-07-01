@@ -85,6 +85,7 @@ body{
     grid-template-columns: repeat(auto-fit, 25rem);
     place-content: center;
     gap: 1.5rem;
+    row-gap: 4rem;
     margin-top: 2rem;
    
 }
@@ -131,10 +132,9 @@ body{
 }
 
 .item-button{
-    align-self: end;
+
     justify-self: start;
     padding: 1rem 1rem;
-    margin-bottom: 2rem;
     border: 1px solid white;
     font-size: var(--sm);
     font-weight: 700;
