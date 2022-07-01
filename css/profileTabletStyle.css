@@ -1,0 +1,14 @@
+.blog-profile{
+  
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+.blog-profile article{
+    place-self: center;
+   
+}
+    
+   
+ 
